@@ -1,0 +1,58 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+*.env
+*venv
+*env
+*.venv/
+__pycache__/
+*.sqlite3
+*.log
+db.sqlite3
+.env.*
+*.DS_Store
+
+# Django
+*.local_settings.py
+media/
+staticfiles/
+static/
+secrets.json
+
+# PostgreSQL
+*.pgsql
+*.psql
+
+# Node.js / React.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+build/
+dist/
+*.cache
+*.env.local
+*.env.development.local
+*.env.production.local
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Miscellaneous
+coverage/
+*.bak
+*.swp
+*.pid
+*.seed
+*.out
+*.tmp
+
